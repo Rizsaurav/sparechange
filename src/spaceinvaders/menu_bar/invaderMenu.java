@@ -13,8 +13,8 @@ public class invaderMenu extends JMenu {
         JMenuItem customInvader = new JMenuItem("Custom Invader Image");
 
         invader1.addActionListener(e -> imageSelection.setInvaderImage("./resources/InvaderImages/InvaderImage1.png"));
-        invader2.addActionListener(e -> imageSelection.setInvaderImage("./resources/InvaderImages/InvaderImage2.png"));
-        invader3.addActionListener(e -> imageSelection.setInvaderImage("./resources/InvaderImages/InvaderImage3"));
+        invader2.addActionListener(e -> imageSelection.setInvaderImage("./resources/InvaderImages/InvaderImage11.png"));
+        invader3.addActionListener(e -> imageSelection.setInvaderImage("./resources/InvaderImages/InvaderImage3.png"));
 
         customInvader.addActionListener(e -> {
             String url = JOptionPane.showInputDialog("Enter URL for Invader Image:");

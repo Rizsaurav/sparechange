@@ -54,7 +54,7 @@ public class ImageSelection {
     public void setGameImages() {
         shooterImage = loadImage("shooter", "./resources/ShooterImage.png");
         invaderImage = loadImage("invader", "./resources/InvaderImage.png");
-        bulletImage = loadImage("bullet", "./resources/BulletImage1.png");
+        bulletImage = null;
     }
 
     private static Image loadImage(String imageType, String imagePath) {

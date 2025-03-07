@@ -12,9 +12,9 @@ public class bulletMenu extends JMenu {
         JMenuItem bullet3 = new JMenuItem("Bullet Type 3");
         JMenuItem customBullet = new JMenuItem("Custom Bullet Type");
 
-        bullet1.addActionListener(e -> imageSelection.updateImage("bullet", "./resources/BulletImages/BulletImage2.png"));
-        bullet2.addActionListener(e -> imageSelection.updateImage("bullet", "./resources/BulletImages/BulletImage2.png"));
-        bullet3.addActionListener(e -> imageSelection.updateImage("bullet", "./resources/BulletImages/BulletImage2.png"));
+        bullet1.addActionListener(e -> imageSelection.updateImage("bullet", "./resources/BulletImages/BulletImage4.png"));
+        bullet2.addActionListener(e -> imageSelection.updateImage("bullet", "./resources/BulletImages/BulletImage4.png"));
+        bullet3.addActionListener(e -> imageSelection.updateImage("bullet", "./resources/BulletImages/BulletImage4.png"));
 
         customBullet.addActionListener(e -> {
             String url = JOptionPane.showInputDialog(null, "Enter URL for Bullet Image:");
